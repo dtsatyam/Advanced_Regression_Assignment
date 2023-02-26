@@ -14,11 +14,11 @@ The company wants to know:
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-Step 1: Data Preparation
-Step 2: Exploratory Data Analysis
-Step 3: Data Pre Processing
-Step 4: Split data (train & test) & Scale variables
-Step 5: Model Building with Ridge & Lasso
+Step 1: Data Preparation<br>
+Step 2: Exploratory Data Analysis<br>
+Step 3: Data Pre Processing<br>
+Step 4: Split data (train & test) & Scale variables<br>
+Step 5: Model Building with Ridge & Lasso<br>
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -29,45 +29,47 @@ By comparing both model performance, the train data result on ridge and lasso ar
 
 Below are the top 10 features in Ridge Regression with high beta coefficients:
 
-'GrLivArea',
-'TotalBsmtSF',
-'OverallQual',
-'GarageQual',
-'Neighborhood_NoRidge',
-'OverallCond',
-'GarageYrBlt_2008.0',
-'Fireplaces',
-'Exterior2nd_CmentBd',
-'Neighborhood_Somerst'
+'GrLivArea',<br>
+'TotalBsmtSF',<br>
+'OverallQual',<br>
+'GarageQual',<br>
+'Neighborhood_NoRidge',<br>
+'OverallCond',<br>
+'GarageYrBlt_2008.0',<br>
+'Fireplaces',<br>
+'Exterior2nd_CmentBd',<br>
+'Neighborhood_Somerst'<br>
+
 Below are the top 10 features in Lasso Regression with high beta coefficients:
 
-'GrLivArea',
-'TotalBsmtSF',
-'GarageQual',
-'OverallQual',
-'Exterior2nd_CmentBd',
-'Neighborhood_NoRidge',
-'OverallCond',
-'GarageYrBlt_2008.0',
-'Neighborhood_Somerst',
-'Fireplaces'
+'GrLivArea',<br>
+'TotalBsmtSF',<br>
+'GarageQual',<br>
+'OverallQual',<br>
+'Exterior2nd_CmentBd',<br>
+'Neighborhood_NoRidge',<br>
+'OverallCond',<br>
+'GarageYrBlt_2008.0',<br>
+'Neighborhood_Somerst',<br>
+'Fireplaces'<br>
+
 Below are the features that are highly correlated with SaleData
 
-Positively correlated with OverallQual (0.79)
-Positively correlated with MasVnrArea (0.47)
-Positively correlated with ExterQual (0.68)
-Positively correlated with BsmtQual (0.64)
-Positiveely correlated with TotalBsmtSF (0.61)
-Positiveely correlated with 1stFlrSF (0.61)
-Positiveely correlated with GrLivArea (0.71)
-Positively correlated with FullBath (0.58)
-Positively correlated with KitchenQual (0.65)
-Positively correlated with TotRmsAbvGrd (0.55)
-Positively correlated with GarageCars (0.64)
-Positively correlated with GarageArea (0.62)
-Negetively correlated with AgeOfHouse (0.5)
-Best Alfa value using Ridge regression is: 0.9
-Best Alfa value using Lasso regression is: 0.00001
+-  Positively correlated with OverallQual (0.79)
+-  Positively correlated with MasVnrArea (0.47)
+-  Positively correlated with ExterQual (0.68)
+-  Positively correlated with BsmtQual (0.64)
+-  Positiveely correlated with TotalBsmtSF (0.61)
+-  Positiveely correlated with 1stFlrSF (0.61)
+-  Positiveely correlated with GrLivArea (0.71)
+-  Positively correlated with FullBath (0.58)
+-  Positively correlated with KitchenQual (0.65)
+-  Positively correlated with TotRmsAbvGrd (0.55)
+-  Positively correlated with GarageCars (0.64)
+-  Positively correlated with GarageArea (0.62)
+-  Negetively correlated with AgeOfHouse (0.5)
+-  Best Alfa value using Ridge regression is: 0.9
+-  Best Alfa value using Lasso regression is: 0.00001
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
